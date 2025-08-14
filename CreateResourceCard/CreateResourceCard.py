@@ -194,7 +194,7 @@ class CardGUI(ttk.Frame):
         copy_btn = ttk.Button(btns, text="Copy to Clipboard", command=self.copy_to_clipboard)
         copy_btn.grid(row=0, column=1, padx=(8, 0))
 
-        save_btn = ttk.Button(btns, text="Save to FileÅc", command=self.save_to_file)
+        save_btn = ttk.Button(btns, text="Save to File", command=self.save_to_file)
         save_btn.grid(row=0, column=2, padx=(8, 0))
 
         # Output textbox
