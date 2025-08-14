@@ -142,7 +142,7 @@ class CardGUI(ttk.Frame):
 
         # StringVars for fields
         self.card_name = tk.StringVar(value="Card Name")
-        self.category = tk.StringVar(value="tools, docs, community, repos")
+        self.category = tk.StringVar(value="Choose one: tools, docs, community, repos")
         self.tags = tk.StringVar(value="emulator,info,guide")
         self.search = tk.StringVar(value="SEARCH KEYWORD")
         self.visible_title = tk.StringVar(value="Visible Card Title")
@@ -157,7 +157,7 @@ class CardGUI(ttk.Frame):
         self._add_labeled_entry("Card Name", self.card_name, row, help_="Used for comment and i18n key (no spaces).")
         row += 1
 
-        self._add_labeled_entry("Category", self.category, row, help_='data-category and category pill (e.g., "tools").')
+        self._add_labeled_entry("Category (one only)", self.category, row, help_='data-category and category pill (e.g., "tools").')
         row += 1
 
         self._add_labeled_entry("Tags (comma-separated)", self.tags, row, help_='data-tags. First tag becomes the tag pill.')
