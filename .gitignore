@@ -416,3 +416,5 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+/LeaderboardDBPuller/LeaderboardDBPuller/ca-certificate.crt
+/LeaderboardDBPuller/LeaderboardDBPuller/exports/ff7sb
